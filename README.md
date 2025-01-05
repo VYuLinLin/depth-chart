@@ -10,6 +10,10 @@
 
 3、支持所有元素的颜色、样式控制
 
+## 预览
+
+详见 [预览](https://vyulinlin.github.io/depth-chart-demo/dist/index.html).
+
 # 示意图
 
 ![image](asstes/depth2025.png)
