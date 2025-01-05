@@ -47,6 +47,8 @@ import { depthChart } from '@real2sport/depth-chart'
 
 ## 3.调用
 
+[示例项目](https://github.com/VYuLinLin/depth-chart-demo)
+
 示例：example/App.vue
 
 ```vue
