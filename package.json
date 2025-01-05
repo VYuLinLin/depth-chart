@@ -1,8 +1,12 @@
 {
-  "name": "@real/depth-chart",
+  "name": "@real2sport/depth-chart",
   "version": "1.0.0",
   "description": "一个使用vue3和vue-konva的深度图组件",
   "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -38,11 +42,11 @@
     "vue-tsc": "^2.1.10"
   },
   "keywords": [
-    "@real/depth-chart",
+    "@real2sport/depth-chart",
     "depth-chart",
     "depth-map",
     "deep-chart",
-    "@real"
+    "@real2sport"
   ],
   "repository": {
     "type": "git",

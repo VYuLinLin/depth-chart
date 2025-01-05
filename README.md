@@ -1,16 +1,14 @@
-# @real/depth-chart
+# @real2sport/depth-chart
 
 交易平台自定义深度图表组件，使用vue3和vue-konva开发
 
 ## 功能
 
-1、支持自定义vue-konva全部配置
+1、自适应屏幕分辨率，宽度、高度自适应
 
-2、自适应屏幕分辨率，宽度、高度自适应
+2、支持价格、数量、小数位精度控制
 
-3、支持价格、数量、小数位精度控制
-
-4、支持所有元素的颜色、样式控制
+3、支持所有元素的颜色、样式控制
 
 # 示意图
 
@@ -22,14 +20,14 @@
 
 ## 1. 安装
 
-`npm i @real/depth-chart`
+`npm i @real2sport/depth-chart`
 
 ## 2. 引用
 
 ```javascript
 import { createApp } from 'vue'
 import App from './App.vue'
-import depthChart from '@real/depth-chart'
+import depthChart from '@real2sport/depth-chart'
 // vue3 全局引用
 const app = createApp(App)
 app.use(depthChart)
@@ -39,7 +37,7 @@ app.mount('#app')
 ```vue
 <!-- 组件引用 -->
 <script setup lang="ts">
-import { depthChart } from '@real/depth-chart'
+import { depthChart } from '@real2sport/depth-chart'
 </script>
 ```
 
