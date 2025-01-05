@@ -1,0 +1,586 @@
+{
+    "asks": [
+        {
+            "price": 4088.01,
+            "amount": 0.0014,
+            "totalAmount": 0.0454
+        },
+        {
+            "price": 4073.31,
+            "amount": 0.0008,
+            "totalAmount": 0.044
+        },
+        {
+            "price": 4043.61,
+            "amount": 0.0009,
+            "totalAmount": 0.0432
+        },
+        {
+            "price": 4029.12,
+            "amount": 0.0012,
+            "totalAmount": 0.0423
+        },
+        {
+            "price": 4017,
+            "amount": 0.0003,
+            "totalAmount": 0.0411
+        },
+        {
+            "price": 4015.12,
+            "amount": 0.0005,
+            "totalAmount": 0.0408
+        },
+        {
+            "price": 4013.86,
+            "amount": 0.0013,
+            "totalAmount": 0.0403
+        },
+        {
+            "price": 3943.15,
+            "amount": 0.0003,
+            "totalAmount": 0.039
+        },
+        {
+            "price": 3916.37,
+            "amount": 0.0013,
+            "totalAmount": 0.0387
+        },
+        {
+            "price": 3898.24,
+            "amount": 0.0009,
+            "totalAmount": 0.0374
+        },
+        {
+            "price": 3881.79,
+            "amount": 0.0014,
+            "totalAmount": 0.0365
+        },
+        {
+            "price": 3867.21,
+            "amount": 0.0009,
+            "totalAmount": 0.0351
+        },
+        {
+            "price": 3825.01,
+            "amount": 0.0007,
+            "totalAmount": 0.0342
+        },
+        {
+            "price": 3803.12,
+            "amount": 0.0007,
+            "totalAmount": 0.0335
+        },
+        {
+            "price": 3795.85,
+            "amount": 0.0014,
+            "totalAmount": 0.0328
+        },
+        {
+            "price": 3787.55,
+            "amount": 0.0014,
+            "totalAmount": 0.0314
+        },
+        {
+            "price": 3675.56,
+            "amount": 0.0008,
+            "totalAmount": 0.03
+        },
+        {
+            "price": 3652.68,
+            "amount": 0.0003,
+            "totalAmount": 0.0292
+        },
+        {
+            "price": 3650.56,
+            "amount": 0.0006,
+            "totalAmount": 0.0289
+        },
+        {
+            "price": 3648.37,
+            "amount": 0.0005,
+            "totalAmount": 0.0283
+        },
+        {
+            "price": 3642.06,
+            "amount": 0.001,
+            "totalAmount": 0.0278
+        },
+        {
+            "price": 3636,
+            "amount": 0.0003,
+            "totalAmount": 0.0268
+        },
+        {
+            "price": 3634.28,
+            "amount": 0.0004,
+            "totalAmount": 0.0265
+        },
+        {
+            "price": 3633.93,
+            "amount": 0.0011,
+            "totalAmount": 0.0261
+        },
+        {
+            "price": 3633.62,
+            "amount": 0.0008,
+            "totalAmount": 0.025
+        },
+        {
+            "price": 3633.26,
+            "amount": 0.0011,
+            "totalAmount": 0.0242
+        },
+        {
+            "price": 3631.06,
+            "amount": 0.0011,
+            "totalAmount": 0.0231
+        },
+        {
+            "price": 3628.33,
+            "amount": 0.0005,
+            "totalAmount": 0.022
+        },
+        {
+            "price": 3624.27,
+            "amount": 0.0007,
+            "totalAmount": 0.0215
+        },
+        {
+            "price": 3618.13,
+            "amount": 0.0014,
+            "totalAmount": 0.0208
+        },
+        {
+            "price": 3617.5,
+            "amount": 0.001,
+            "totalAmount": 0.0194
+        },
+        {
+            "price": 3616.97,
+            "amount": 0.001,
+            "totalAmount": 0.0184
+        },
+        {
+            "price": 3614.98,
+            "amount": 0.0006,
+            "totalAmount": 0.0174
+        },
+        {
+            "price": 3614.88,
+            "amount": 0.0008,
+            "totalAmount": 0.0168
+        },
+        {
+            "price": 3614.86,
+            "amount": 0.0005,
+            "totalAmount": 0.016
+        },
+        {
+            "price": 3613.07,
+            "amount": 0.0003,
+            "totalAmount": 0.0155
+        },
+        {
+            "price": 3612.98,
+            "amount": 0.0006,
+            "totalAmount": 0.0152
+        },
+        {
+            "price": 3612.67,
+            "amount": 0.0009,
+            "totalAmount": 0.0146
+        },
+        {
+            "price": 3611.96,
+            "amount": 0.0005,
+            "totalAmount": 0.0137
+        },
+        {
+            "price": 3611.24,
+            "amount": 0.0007,
+            "totalAmount": 0.0132
+        },
+        {
+            "price": 3609.52,
+            "amount": 0.0005,
+            "totalAmount": 0.0125
+        },
+        {
+            "price": 3609.51,
+            "amount": 0.0006,
+            "totalAmount": 0.012
+        },
+        {
+            "price": 3609.41,
+            "amount": 0.0007,
+            "totalAmount": 0.0114
+        },
+        {
+            "price": 3608.86,
+            "amount": 0.0011,
+            "totalAmount": 0.0107
+        },
+        {
+            "price": 3608.75,
+            "amount": 0.0009,
+            "totalAmount": 0.0096
+        },
+        {
+            "price": 3608.57,
+            "amount": 0.0007,
+            "totalAmount": 0.0087
+        },
+        {
+            "price": 3608.56,
+            "amount": 0.0005,
+            "totalAmount": 0.008
+        },
+        {
+            "price": 3608.38,
+            "amount": 0.0012,
+            "totalAmount": 0.0075
+        },
+        {
+            "price": 3608.31,
+            "amount": 0.0004,
+            "totalAmount": 0.0063
+        },
+        {
+            "price": 3607.79,
+            "amount": 0.0007,
+            "totalAmount": 0.0059
+        },
+        {
+            "price": 3607.67,
+            "amount": 0.0004,
+            "totalAmount": 0.0052
+        },
+        {
+            "price": 3606.75,
+            "amount": 0.0012,
+            "totalAmount": 0.0048
+        },
+        {
+            "price": 3606.74,
+            "amount": 0.001,
+            "totalAmount": 0.0036
+        },
+        {
+            "price": 3606.72,
+            "amount": 0.0005,
+            "totalAmount": 0.0026
+        },
+        {
+            "price": 3606.18,
+            "amount": 0.0021,
+            "totalAmount": 0.0021
+        }
+    ],
+    "bids": [
+        {
+            "price": 3606.16,
+            "amount": 0.0007,
+            "totalAmount": 0.0007
+        },
+        {
+            "price": 3604.96,
+            "amount": 0.0003,
+            "totalAmount": 0.001
+        },
+        {
+            "price": 3604.92,
+            "amount": 0.0018,
+            "totalAmount": 0.0028
+        },
+        {
+            "price": 3604.89,
+            "amount": 0.0007,
+            "totalAmount": 0.0035
+        },
+        {
+            "price": 3604.87,
+            "amount": 0.0003,
+            "totalAmount": 0.0038
+        },
+        {
+            "price": 3604.84,
+            "amount": 0.0015,
+            "totalAmount": 0.0053
+        },
+        {
+            "price": 3604.83,
+            "amount": 0.0013,
+            "totalAmount": 0.0066
+        },
+        {
+            "price": 3604.81,
+            "amount": 0.0006,
+            "totalAmount": 0.0072
+        },
+        {
+            "price": 3604.8,
+            "amount": 0.0008,
+            "totalAmount": 0.008
+        },
+        {
+            "price": 3604.78,
+            "amount": 0.0009,
+            "totalAmount": 0.0089
+        },
+        {
+            "price": 3604.77,
+            "amount": 0.0006,
+            "totalAmount": 0.0095
+        },
+        {
+            "price": 3604.76,
+            "amount": 0.0017,
+            "totalAmount": 0.0112
+        },
+        {
+            "price": 3604.75,
+            "amount": 0.0012,
+            "totalAmount": 0.0124
+        },
+        {
+            "price": 3604.74,
+            "amount": 0.0008,
+            "totalAmount": 0.0132
+        },
+        {
+            "price": 3604.71,
+            "amount": 0.0006,
+            "totalAmount": 0.0138
+        },
+        {
+            "price": 3604.68,
+            "amount": 0.0007,
+            "totalAmount": 0.0145
+        },
+        {
+            "price": 3604.65,
+            "amount": 0.0006,
+            "totalAmount": 0.0151
+        },
+        {
+            "price": 3604.64,
+            "amount": 0.0008,
+            "totalAmount": 0.0159
+        },
+        {
+            "price": 3604.53,
+            "amount": 0.0003,
+            "totalAmount": 0.0162
+        },
+        {
+            "price": 3604.52,
+            "amount": 0.0008,
+            "totalAmount": 0.017
+        },
+        {
+            "price": 3604.41,
+            "amount": 0.0007,
+            "totalAmount": 0.0177
+        },
+        {
+            "price": 3604.25,
+            "amount": 0.0003,
+            "totalAmount": 0.018
+        },
+        {
+            "price": 3604.2,
+            "amount": 0.0007,
+            "totalAmount": 0.0187
+        },
+        {
+            "price": 3604.19,
+            "amount": 0.0008,
+            "totalAmount": 0.0195
+        },
+        {
+            "price": 3604.18,
+            "amount": 0.0007,
+            "totalAmount": 0.0202
+        },
+        {
+            "price": 3604.04,
+            "amount": 0.0009,
+            "totalAmount": 0.0211
+        },
+        {
+            "price": 3604.03,
+            "amount": 0.0004,
+            "totalAmount": 0.0215
+        },
+        {
+            "price": 3603.99,
+            "amount": 0.0008,
+            "totalAmount": 0.0223
+        },
+        {
+            "price": 3602.8,
+            "amount": 0.0003,
+            "totalAmount": 0.0226
+        },
+        {
+            "price": 3602.29,
+            "amount": 0.0003,
+            "totalAmount": 0.0229
+        },
+        {
+            "price": 3602.1,
+            "amount": 0.0009,
+            "totalAmount": 0.0238
+        },
+        {
+            "price": 3601.41,
+            "amount": 0.0005,
+            "totalAmount": 0.0243
+        },
+        {
+            "price": 3600.99,
+            "amount": 0.0003,
+            "totalAmount": 0.0246
+        },
+        {
+            "price": 3600.97,
+            "amount": 0.0004,
+            "totalAmount": 0.025
+        },
+        {
+            "price": 3600.94,
+            "amount": 0.0004,
+            "totalAmount": 0.0254
+        },
+        {
+            "price": 3600.73,
+            "amount": 0.0005,
+            "totalAmount": 0.0259
+        },
+        {
+            "price": 3600.22,
+            "amount": 0.0005,
+            "totalAmount": 0.0264
+        },
+        {
+            "price": 3598.76,
+            "amount": 0.0005,
+            "totalAmount": 0.0269
+        },
+        {
+            "price": 3598.62,
+            "amount": 0.0004,
+            "totalAmount": 0.0273
+        },
+        {
+            "price": 3598.51,
+            "amount": 0.0007,
+            "totalAmount": 0.028
+        },
+        {
+            "price": 3596.4,
+            "amount": 0.0005,
+            "totalAmount": 0.0285
+        },
+        {
+            "price": 3596.23,
+            "amount": 0.0009,
+            "totalAmount": 0.0294
+        },
+        {
+            "price": 3595.43,
+            "amount": 0.0006,
+            "totalAmount": 0.03
+        },
+        {
+            "price": 3593.62,
+            "amount": 0.0007,
+            "totalAmount": 0.0307
+        },
+        {
+            "price": 3591.82,
+            "amount": 0.001,
+            "totalAmount": 0.0317
+        },
+        {
+            "price": 3591.54,
+            "amount": 0.0009,
+            "totalAmount": 0.0326
+        },
+        {
+            "price": 3588.92,
+            "amount": 0.001,
+            "totalAmount": 0.0336
+        },
+        {
+            "price": 3582.44,
+            "amount": 0.001,
+            "totalAmount": 0.0346
+        },
+        {
+            "price": 3579.95,
+            "amount": 0.0007,
+            "totalAmount": 0.0353
+        },
+        {
+            "price": 3579.55,
+            "amount": 0.0008,
+            "totalAmount": 0.0361
+        },
+        {
+            "price": 3578.91,
+            "amount": 0.0008,
+            "totalAmount": 0.0369
+        },
+        {
+            "price": 3577.42,
+            "amount": 0.001,
+            "totalAmount": 0.0379
+        },
+        {
+            "price": 3572.87,
+            "amount": 0.0005,
+            "totalAmount": 0.0384
+        },
+        {
+            "price": 3570.75,
+            "amount": 0.0004,
+            "totalAmount": 0.0388
+        },
+        {
+            "price": 3568.17,
+            "amount": 0.0004,
+            "totalAmount": 0.0392
+        },
+        {
+            "price": 3565.98,
+            "amount": 0.0008,
+            "totalAmount": 0.04
+        },
+        {
+            "price": 3561.78,
+            "amount": 0.0011,
+            "totalAmount": 0.0411
+        },
+        {
+            "price": 3561.16,
+            "amount": 0.0005,
+            "totalAmount": 0.0416
+        },
+        {
+            "price": 3492.69,
+            "amount": 0.0007,
+            "totalAmount": 0.0423
+        },
+        {
+            "price": 3247.34,
+            "amount": 0.0008,
+            "totalAmount": 0.0431
+        },
+        {
+            "price": 3227.53,
+            "amount": 0.0007,
+            "totalAmount": 0.0438
+        }
+    ]
+}
