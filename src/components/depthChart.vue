@@ -41,10 +41,21 @@ const defaultDepthData: {
 }
 </script>
 <script setup lang="ts">
-import { ref, onMounted, computed, defineProps } from 'vue'
+import {
+  ref,
+  onMounted,
+  computed,
+  defineProps,
+  getCurrentInstance,
+  type ComponentInternalInstance,
+} from 'vue'
+import VueKonva from 'vue-konva'
 import { throttle, times, plus, minus, div, toFormat } from '@/utils'
-import '../../index.d.ts'
 
+const { appContext } = <ComponentInternalInstance>getCurrentInstance()
+appContext.app.use(VueKonva, {
+  prefix: 'kv',
+})
 defineOptions({
   name: 'depthChart',
 })
