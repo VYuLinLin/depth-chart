@@ -1,5 +1,5 @@
 <script lang="ts">
-const defaultOptions = {
+const defaultOptions: IDepthItemPropsOptions = {
   width: 500, // 总宽
   height: 340, // 总高
   marginX: 50, // 右侧数量宽度
@@ -12,6 +12,10 @@ const defaultOptions = {
   asksBgColor: 'rgba(241,75,75,0.2)', // 卖盘背景颜色
   dottedBgColor: 'rgba(91,89,89,0.02)', // 虚线背景色
   axisColor: '#5B5959', // 中线及刻度线颜色
+  axisXBgColor: '#F7F7F7', // X坐标轴背景色
+  axisYBgColor: '#F7F7F7', // Y坐标轴背景色
+  axisXBorderColor: '#F7F7F7', // X坐标轴边框色
+  axisYBorderColor: '#F7F7F7', // Y坐标轴边框色
   axisLineWidth: 4, // 刻度线宽度
   tipFontSize: 14, // 提示字体大小
   tipColor: '#FFFFFF', // 飘窗字体颜色
@@ -19,12 +23,19 @@ const defaultOptions = {
   tipTotalText: '总额',
   wheel: 50, // 默认鼠标滚轮步长，数值越大，展示的数据量越多
 }
-const defaultSymbolData = {
+const defaultSymbolData: {
+  currentPrice: number | string
+  priceScale: number | string
+  qtyScale: number | string
+} = {
   currentPrice: 0, // 当前价格
   priceScale: 2, // 价格精度
   qtyScale: 2, // 数量精度
 }
-const defaultDepthData = {
+const defaultDepthData: {
+  bids: IDepthItem[]
+  asks: IDepthItem[]
+} = {
   bids: [],
   asks: [],
 }
@@ -68,7 +79,6 @@ const wheel = ref(options.value.wheel || 50)
 
 // 买单-价格倒序
 const bids = computed(() => {
-  console.log(props.depthData.bids)
   const list = props.depthData.bids || []
   return list
     .map((a: any) => {
@@ -111,7 +121,6 @@ const maxLength = computed(() => {
 const mouseX = ref(0)
 
 const xScales = computed(() => {
-  console.log('bids', bids.value)
   const middlePrice = props.symbolData.currentPrice
   const bidsScaleSpread = bids.value.length
     ? minus(middlePrice, bids.value[bids.value.length - 1].price)
@@ -273,7 +282,6 @@ const touchGap = ref<number>(0)
 const depthChartEl = ref()
 const getClientSize = () => {
   if (!depthChartEl.value) return
-  console.log(depthChartEl.value.clientWidth, depthChartEl.value.clientHeight, height.value)
   width.value = depthChartEl.value.clientWidth
   height.value = depthChartEl.value.clientHeight || height.value
   viewWidth.value = minus(width.value, options.value.marginX).toNumber()
@@ -415,10 +423,12 @@ const onMouseMove = throttle((e: any) => {
         </kv-group>
 
         <!-- x轴刻度 -->
-        <!-- <kv-path
+        <kv-path
+          :stroke="options.axisXBorderColor"
+          :fill="options.axisXBgColor"
           :strokeWidth="1"
           :data="`M0 ${height} L0 ${viewHeight + 1} L${width} ${viewHeight + 1} L${width} ${height} Z`"
-        /> -->
+        />
         <kv-group v-for="(text, i) in xScales" :key="i">
           <kv-path
             :stroke="options.axisColor"
@@ -441,8 +451,8 @@ const onMouseMove = throttle((e: any) => {
 
         <!-- y轴刻度 -->
         <kv-path
-          stroke="#171717"
-          fill="#171717"
+          :stroke="options.axisYBorderColor"
+          :fill="options.axisYBgColor"
           :data="`M${viewWidth} 0 L${viewWidth} ${height} L${width} ${height} L${width} 0 Z`"
         />
         <kv-group v-for="(text, i) in yScales" :key="i">
@@ -469,6 +479,7 @@ const onMouseMove = throttle((e: any) => {
 .depth-chart {
   overflow: hidden;
   position: relative;
+  height: inherit;
 }
 
 .depth-chart > div:first-child {

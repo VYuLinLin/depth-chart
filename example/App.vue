@@ -1,24 +1,16 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-const options = {
-  bidsColor: '#ff0000',
-  asksColor: '#00ff00',
-  tipColor: '#fff',
-  tipFontSize: 12,
-}
+const options = {}
 const symbolData = ref<any>({
   currentPrice: 3606.17, // 当前价格
   priceScale: 2, // 价格精度
-  qtyScale: 2, // 数量精度
+  qtyScale: 4, // 数量精度
 })
 const depthData = ref<any>({
   bids: [],
   asks: [],
 })
-const kLineDataList = ref<any[]>([])
-let newData = ref<any>()
-let cacheList: any[] = []
 const getMockData = () => {
   console.info('Start loading mock data')
   import('../example/mock/index.json').then((res) => {
@@ -26,19 +18,6 @@ const getMockData = () => {
       bids: res.bids,
       asks: res.asks,
     }
-    console.log(res, depthData.value)
-    cacheList = kLineDataList.value
-    const flag = setInterval(() => {
-      if (!cacheList.length) {
-        console.info('Loading mock data is over')
-        clearInterval(flag)
-        return
-      }
-      const newNode = cacheList.shift()
-      if (newNode) {
-        newData.value = newNode
-      }
-    }, 1000)
   })
 }
 getMockData()

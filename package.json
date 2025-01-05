@@ -1,7 +1,7 @@
 {
   "name": "@real/depth-chart",
   "version": "1.0.1",
-  "description": "一个使用vue3和vue-konva的秒k线组件",
+  "description": "一个使用vue3和vue-konva的深度图组件",
   "private": false,
   "type": "module",
   "scripts": {
@@ -38,9 +38,11 @@
     "vue-tsc": "^2.1.10"
   },
   "keywords": [
+    "@real/depth-chart",
     "depth-chart",
     "depth-map",
-    "deep-chart"
+    "deep-chart",
+    "@real"
   ],
   "repository": {
     "type": "git",

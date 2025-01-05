@@ -15,7 +15,7 @@
 # 示意图
 
 ![image](asstes/depth2025.png)
-<video autoplay="true" controls="controls"  src="https://private-user-images.githubusercontent.com/28807436/396122293-1e1eeaa9-4af7-40f5-b91a-0e5c1bf8671b.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQzNTc3NjUsIm5iZiI6MTczNDM1NzQ2NSwicGF0aCI6Ii8yODgwNzQzNi8zOTYxMjIyOTMtMWUxZWVhYTktNGFmNy00MGY1LWI5MWEtMGU1YzFiZjg2NzFiLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjE2VDEzNTc0NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTljMDA0M2NjNDA5Mjg0MTYzNTRlNjEyMjg3NjNjMWY5MTNhMjE0ZWE1NTdhZjFlNmI1MzA1ZDRlMWU5MGQ0NGYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.ML-8GYKK7iPWBSaj_Bv7PyYlr523JzcBaUyye9-pWb8" title="asstes/depth2025.mp4"></video>
+<video autoplay="true" controls="controls"  src="https://private-user-images.githubusercontent.com/28807436/400177436-2c2266f4-a3ea-4abb-be43-6a9f8f687b4b.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzYwNTA0MDEsIm5iZiI6MTczNjA1MDEwMSwicGF0aCI6Ii8yODgwNzQzNi80MDAxNzc0MzYtMmMyMjY2ZjQtYTNlYS00YWJiLWJlNDMtNmE5ZjhmNjg3YjRiLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTA1VDA0MDgyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM3NWQ4NzkzOTI3OTA0MGExOTdiMmNhYzk2YThmODAwNDg1ZmYxN2NlNjE5ODhhMmMzOWZkN2Q5NmUyMWRjNGImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.7FzFVdA2yPQq34TRIkN8MXsEKVWTH_2zm11c2nUyj3I" title="asstes/depth2025.mp4"></video>
 </video>
 
 # 使用方式
@@ -29,7 +29,7 @@
 ```javascript
 import { createApp } from 'vue'
 import App from './App.vue'
-import depthChart from '@/index'
+import depthChart from '@real/depth-chart'
 // vue3 全局引用
 const app = createApp(App)
 app.use(depthChart)
