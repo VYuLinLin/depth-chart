@@ -1,6 +1,6 @@
 {
   "name": "@real/depth-chart",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "一个使用vue3和vue-konva的深度图组件",
   "private": false,
   "type": "module",
@@ -48,7 +48,7 @@
     "type": "git",
     "url": "git+https://github.com/VYuLinLin/depth-chart.git"
   },
-  "author": "Your Name",
+  "author": "VYuLinLin",
   "license": "MIT",
   "homepage": "https://github.com/VYuLinLin/depth-chart"
 }
