@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-const options = {}
+const options = ref({ isRedUp: false })
 const symbolData = ref<any>({
   currentPrice: 3606.17, // 当前价格
   priceScale: 2, // 价格精度
@@ -21,10 +21,16 @@ const getMockData = () => {
   })
 }
 getMockData()
+
+setTimeout(() => {
+  options.value.isRedUp = true
+}, 5000)
 </script>
 
 <template>
   <main>
+    <div v-if="options.isRedUp">Model: Red Up/Green Down</div>
+    <div v-else>Model: Red Down/Green Up</div>
     <depthChart :options="options" :symbolData="symbolData" :depthData="depthData"></depthChart>
   </main>
 </template>
@@ -33,5 +39,6 @@ getMockData()
 main {
   width: 100%;
   height: 30vh;
+  text-align: center;
 }
 </style>
