@@ -28,4 +28,5 @@ interface IDepthItemPropsOptions {
   tipPriceText: string // 提示价格文字
   tipTotalText: string // 提示总价文字
   wheel: number // 默认鼠标滚轮步长，数值越大，展示的数据量越多
+  isRedUp: boolean // 默认false红跌绿涨，true红涨绿跌
 }

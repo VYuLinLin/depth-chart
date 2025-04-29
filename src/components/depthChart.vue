@@ -22,6 +22,7 @@ const defaultOptions: IDepthItemPropsOptions = {
   tipPriceText: '价格',
   tipTotalText: '总额',
   wheel: 50, // 默认鼠标滚轮步长，数值越大，展示的数据量越多
+  isRedUp: false, // 默认false红跌绿涨，true红涨绿跌
 }
 const defaultSymbolData: {
   currentPrice: number | string
@@ -76,10 +77,17 @@ const props = defineProps({
   },
 })
 
-const options = computed(() => ({
-  ...defaultOptions,
-  ...props.options,
-}))
+const options = computed(() => {
+  const conf = {
+    ...defaultOptions,
+    ...props.options,
+  }
+  if (conf.isRedUp) {
+    ;[conf.bidsColor, conf.asksColor] = [conf.asksColor, conf.bidsColor]
+    ;[conf.bidsBgColor, conf.asksBgColor] = [conf.asksBgColor, conf.bidsBgColor]
+  }
+  return conf
+})
 
 const width = ref(options.value.width || 500) // 总宽
 const height = ref(options.value.height || 340) // 总高
