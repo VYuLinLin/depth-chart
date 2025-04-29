@@ -1,6 +1,6 @@
 {
   "name": "@real2sport/depth-chart",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "一个使用vue3和vue-konva的深度图组件",
   "private": false,
   "publishConfig": {
