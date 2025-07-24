@@ -54,9 +54,14 @@ import VueKonva from 'vue-konva'
 import { throttle, times, plus, minus, div, toFormat } from '@/utils'
 
 const { appContext } = <ComponentInternalInstance>getCurrentInstance()
-appContext.app.use(VueKonva, {
-  prefix: 'kv',
-})
+const { globalProperties } = appContext.app.config
+if (!globalProperties?.$isKonvaPluginRegistered) {
+  appContext.app.use(VueKonva, {
+    prefix: 'kv',
+  })
+  globalProperties.$isKonvaPluginRegistered = true
+}
+
 defineOptions({
   name: 'depthChart',
 })

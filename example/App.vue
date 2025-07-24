@@ -11,6 +11,7 @@ const depthData = ref<any>({
   bids: [],
   asks: [],
 })
+const showChart = ref(true)
 const getMockData = () => {
   console.info('Start loading mock data')
   import('../example/mock/index.json').then((res) => {
@@ -21,17 +22,22 @@ const getMockData = () => {
   })
 }
 getMockData()
-
-setTimeout(() => {
-  options.value.isRedUp = true
-}, 5000)
 </script>
 
 <template>
   <main>
+    <div class="btns">
+      <button @click="showChart = !showChart">show/hide</button>
+      <button @click="options.isRedUp = !options.isRedUp">Color switch</button>
+    </div>
     <div v-if="options.isRedUp">Model: Red Up/Green Down</div>
     <div v-else>Model: Red Down/Green Up</div>
-    <depthChart :options="options" :symbolData="symbolData" :depthData="depthData"></depthChart>
+    <depthChart
+      v-if="showChart"
+      :options="options"
+      :symbolData="symbolData"
+      :depthData="depthData"
+    ></depthChart>
   </main>
 </template>
 
@@ -40,5 +46,11 @@ main {
   width: 100%;
   height: 30vh;
   text-align: center;
+}
+.btns {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
 }
 </style>
